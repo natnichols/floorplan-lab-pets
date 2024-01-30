@@ -6,7 +6,8 @@ html, body {
 }
 
 div {
-  border: 1px solid cornflowerblue;
+  border: 2px solid lightseagreen;
+  border-radius: 5px;
   padding: 8px;
   margin: 8px;
 }

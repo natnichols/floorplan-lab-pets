@@ -7,7 +7,7 @@ import Fish from "./Fish"
 
 const Pet = (props) => {
   return ( 
-    <div>
+    <>
       <h2>Pets</h2>
       <div>
         <h3>Cats:</h3>
@@ -37,7 +37,7 @@ const Pet = (props) => {
         <h3>Fish:</h3>
         <Fish />
       </div>
-    </div>
+    </>
   )
 }
 export default Pet;
