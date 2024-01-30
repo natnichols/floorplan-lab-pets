@@ -20,10 +20,22 @@ const Pet = (props) => {
         <Dog dog={{name: "Violet", breed: "Iggy", fed:1}} />
         <Dog dog={{name: "Petunia", breed: "Boston", fed:0}} />
       </div>
-      <Reptile />
-      <Bird />
-      <Amphibian />
-      <Fish />
+      <div>
+        <h3>Reptiles:</h3>
+        <Reptile />
+      </div>
+      <div>
+        <h3>Birds:</h3>
+        <Bird />
+      </div>
+      <div>
+        <h3>Amphibians:</h3>
+        <Amphibian />
+      </div>
+      <div>
+        <h3>Fish:</h3>
+        <Fish />
+      </div>
     </div>
   )
 }

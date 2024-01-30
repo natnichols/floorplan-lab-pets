@@ -1,7 +1,8 @@
 const Reptile = (props) => {
   return ( 
     <div>
-      RANGO!
+      {props.reptile.name} - {props.reptile.breed}
+      <li>{props.reptile.food}</li>
     </div>
   )
 }
