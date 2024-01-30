@@ -18,6 +18,7 @@ const Pet = (props) => {
       <div>
         <h3>Dogs:</h3>
         <Dog dog={{name: "Violet", breed: "Iggy", fed:1}} />
+        <Dog dog={{name: "Petunia", breed: "Boston", fed:0}} />
       </div>
       <Reptile />
       <Bird />
