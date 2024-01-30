@@ -3,6 +3,7 @@ import Dog from "./Dog"
 import Reptile from "./Reptile"
 import Bird from "./Bird"
 import Amphibian from "./Amphibian"
+import Fish from "./Fish"
 
 const Pet = (props) => {
   return ( 
@@ -13,6 +14,7 @@ const Pet = (props) => {
       <Reptile />
       <Bird />
       <Amphibian />
+      <Fish />
     </div>
   )
 }
