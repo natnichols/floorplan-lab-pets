@@ -1,7 +1,8 @@
 const Dog = (props) => {
   return ( 
     <div>
-      Dog!
+      {props.dog.name} - {props.dog.breed}
+      <li>{props.dog.fed ? "Fed" : "Is that Ham?"} </li>
     </div>
   )
 }

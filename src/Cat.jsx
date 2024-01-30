@@ -1,7 +1,8 @@
 const Cat = (props) => {
   return ( 
     <div>
-      Cat!
+      {props.cat.name} - {props.cat.breed}
+      <li>{props.cat.fed ? "Fed" : "Mother, I'm Starving" } </li>
     </div>
   )
 }
