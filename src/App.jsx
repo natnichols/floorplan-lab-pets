@@ -1,10 +1,11 @@
 import './App.css'
+import Pet from './Pet'
 
 const App = () => {
   return ( 
-    <div>
-      Mulder, it's me 👽
-    </div>
+    <>
+      <Pet />
+    </>
   )
 }
 
