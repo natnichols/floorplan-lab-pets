@@ -1,5 +1,6 @@
 import Cat from "./Cat"
 import Dog from "./Dog"
+import Reptile from "./Reptile"
 
 const Pet = (props) => {
   return ( 
@@ -7,6 +8,7 @@ const Pet = (props) => {
       <h2>Pets</h2>
       <Cat />
       <Dog />
+      <Reptile />
     </div>
   )
 }
