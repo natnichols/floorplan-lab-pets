@@ -2,7 +2,7 @@ const Reptile = (props) => {
   return ( 
     <div>
       {props.reptile.name} - {props.reptile.breed}
-      <li>{props.reptile.food}</li>
+      <li>Eats every {props.reptile.feedFreq} Days: {props.reptile.food}</li>
     </div>
   )
 }
